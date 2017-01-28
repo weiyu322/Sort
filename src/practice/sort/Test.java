@@ -20,7 +20,8 @@ public class Test {
 		//Arrays.sort(a);
 		//BubbleSort.sort(a);
 		//ShellSort.sort(a);
-		MergeSort.sort(a);
+		//MergeSort.sort(a);
+		QuickSort.sort(a);
 		double end = System.currentTimeMillis();
 		
 		show(a, 10);

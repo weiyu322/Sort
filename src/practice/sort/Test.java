@@ -21,7 +21,8 @@ public class Test {
 		//BubbleSort.sort(a);
 		//ShellSort.sort(a);
 		//MergeSort.sort(a);
-		QuickSort.sort(a);
+		//QuickSort.sort(a);
+		HeapSort.sort(a);
 		double end = System.currentTimeMillis();
 		
 		show(a, 10);
